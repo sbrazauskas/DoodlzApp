@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/color"
+        android:title="@string/menuitem_color"
+        android:icon="@drawable/ic_palette_24dp"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/line_width"
+        android:title="@string/menuitem_line_width"
+        android:icon="@drawable/ic_brush_24dp"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/background_color"
+        android:title="@string/menuitem_background_color"
+        android:icon="@drawable/ic_format_paint_24dp"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/background_image"
+        android:title="@string/menuitem_background_image"
+        android:icon="@drawable/ic_photo_24dp"
+        app:showAsAction="ifRoom">
+    </item>
+
+
+    <item
+        android:id="@+id/delete_drawing"
+        android:title="@string/menuitem_delete"
+        android:icon="@drawable/ic_delete_24dp"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/save"
+        android:title="@string/menuitem_save"
+        android:icon="@drawable/ic_save_24dp"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/print"
+        android:title="@string/menuitem_print"
+        android:icon="@drawable/ic_print_24dp"
+        app:showAsAction="ifRoom">
+    </item>
+
+
+</menu>
